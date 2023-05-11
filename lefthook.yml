@@ -1,0 +1,31 @@
+pre-commit:
+  scripts:
+    'branch_checker':
+      runner: bash
+  commands:
+    format:
+      tags: prettier
+      glob: '*.{ts,tsx}'
+      run: yarn fmt:check
+    lint:
+      tags: eslint
+      glob: '*.{ts,tsx}'
+      run: yarn eslint {staged_files}
+
+commit-msg:
+  commands:
+    lint-commit-msg:
+      run: yarn commitlint --edit
+
+pre-push:
+  commands:
+    build:
+      run: |
+        if git diff-index --name-only --diff-filter=ACMRT HEAD -- | grep -q -E '\.(ts|tsx|css)$'; then
+          yarn build
+        else
+          echo "\t >> No .ts or .tsx files were modified. Skipping build."
+        fi
+  scripts:
+    'branch_checker':
+      runner: bash

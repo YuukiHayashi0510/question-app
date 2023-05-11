@@ -1,0 +1,117 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-block-start: 80px;
+}
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+input:-webkit-autofill {
+  transition: background-color 5000s ease-in-out 0s !important;
+}
+
+/* カレンダーの重なりバグ解消 */
+.react-datepicker-popper {
+  z-index: 10 !important;
+}
+
+/* タブメニューの下線の色を変更 */
+.MuiTabs-indicator{
+  background-color: #C4AE17 !important;
+}
+
+/* markdown */
+.markdown h1 {
+  @apply text-ai-main;
+  font-size: 1.8em;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 0.1em;
+}
+
+.markdown h2 {
+  @apply text-ai-main;
+  font-size: 1.6em;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 0.1em;
+}
+
+.markdown h3 {
+  @apply text-ai-main;
+  font-size: 1.4em;
+}
+
+.markdown h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+  line-height: 1.5;
+  font-feature-settings: "palt";
+  margin-top: 2.2em;
+  margin-bottom: 2.4rem;
+  cursor: pointer;
+  position: relative;
+}
+
+.markdown a {
+  word-break: break-all;
+  color: #3683bf;
+  text-decoration: none;
+  background-color: rgba(0,0,0,0);
+}
+
+.markdown a:hover {
+  text-decoration: underline;
+  opacity: 0.8;
+}
+
+.markdown a:visited {
+  color: #6200ac;
+}
+
+.markdown ol {
+  list-style: decimal;
+  padding-left: 4%;
+}
+
+.markdown code {
+  margin: 1rem;
+  padding: 1rem;
+}
+
+/* code-editor */
+.editor {
+  counter-reset: line;
+}
+
+.editor #codeArea {
+  outline: none;
+  padding-left: 50px !important;
+}
+
+.editor pre {
+  padding-left: 50px !important;
+}
+
+.editor .editorLineNumber {
+  position: absolute;
+  left: 0px;
+  color: #cccccc;
+  text-align: center;
+  width: 40px;
+  font-weight: 100;
+  border-right: 1px solid #cccccc;
+}
