@@ -1,0 +1,6 @@
+/* Storybookの時だけ使用するCSS */
+
+/* firebase emulatorの警告を消す */
+.firebase-emulator-warning {
+  display: none;
+}

@@ -1,0 +1,28 @@
+{
+  "editor.tabSize": 2,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit",
+    "source.addMissingImports": "explicit"
+  },
+  // ほぼ使わないファイル群を非表示
+  "files.exclude": {
+    "**/.git": true,
+    "**/.firebase": true,
+    "**/.next": true,
+    "**/out": true,
+    "next-env*": true,
+    "*tsbuildinfo": true,
+  },
+  // css
+  "[css]": {
+    "editor.defaultFormatter": "mrmlnc.vscode-csscomb"
+  },
+  "cSpell.words": [
+    "firebaseapp",
+    "firestore",
+    "geekquestion",
+    "nextjs",
+    "Paiza",
+    "signup"
+  ]
+}

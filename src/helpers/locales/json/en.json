@@ -1,0 +1,155 @@
+{
+  "Question": {
+    "name": "Name",
+    "mentor": "Mentor",
+    "question": "Question",
+    "problem": "Problem",
+    "code": "Source Code Language:",
+    "code2": "Source Code Language 2:",
+    "reference": "References and Attempts",
+    "expectation": "Expected Cause",
+    "state": "State",
+    "date": "Date"
+  },
+  "Form": {
+    "name": "Name",
+    "mentor": "Mentor for your course",
+    "question": "What would you like to ask in one line?",
+    "problem": "What problem are you facing / What do you want to achieve?",
+    "lang": "Language",
+    "lang2": "Language 2",
+    "code": "Source Code",
+    "code2": "Source Code 2",
+    "reference": "What you've tried and reference articles",
+    "expectation": "Expected cause (your thoughts on the problem)",
+    "state": "State",
+    "date": "Date"
+  },
+  "Register": {
+    "login": "Login form",
+    "signup": "Signup form",
+    "resetPass": "Reset password",
+    "resetPassText": "We'll send a password reset email to the entered email address"
+  },
+  "User": {
+    "name": "Name",
+    "mail": "Email",
+    "password": "Password",
+    "area": "Area",
+    "signin": "Sign In",
+    "signup": "Sign Up",
+    "logout": "Log Out",
+    "role": "Role",
+    "update": "Update",
+    "edit": "Edit",
+    "delete": "Delete"
+  },
+  "Header": {
+    "siteTitle": "GeekSalon AI Course App"
+  },
+  "Button": {
+    "submit": "Submit",
+    "change": "Change",
+    "detail": "Details",
+    "open": "Open",
+    "close": "Close",
+    "login": "Login",
+    "signup": "Sign Up",
+    "openPreview": "View Preview",
+    "closePreview": "Close Preview",
+    "confirm": "Are you sure?",
+    "more": "Show More",
+    "delete": "Delete"
+  },
+  "Link": {
+    "login": "If you have an account: Log in",
+    "signup": "If you don't have an account: Sign up",
+    "resetPassword": "If you forgot your password: Reset"
+  },
+  "Alert": {
+    "inValidUser": "Please log in with a valid user account",
+    "submitted": "Submitted!",
+    "required": {
+      "name": "Name is required",
+      "question": "Question is required",
+      "problem": "Problem is required",
+      "expectation": "Expected cause is required",
+      "mail": "Email address is required",
+      "password": "Password is required",
+      "area": "Area is required"
+    },
+    "valid": {
+      "minLength": "characters or more are required",
+      "pattern": "Please input with the correct format",
+      "submit": "Please input all required fields"
+    },
+    "Admin": {
+      "edit": "Editing account is only available once",
+      "access": "Please log in with an admin account",
+      "update": "Update successful!"
+    },
+    "Login": {
+      "noInput": "Email address and password are required",
+      "alreadyUser": "You are already logged in, redirecting to question list page.",
+      "inValid": "Invalid email address or password"
+    },
+    "Signup": {
+      "noInput": "Name, email address, and password are required",
+      "nameInput": "Name must be at least 2 characters",
+      "mailInput": "Invalid email address",
+      "passwordInput": "Password must be at least 6 characters",
+      "sameAccount": "You cannot register with the same email address"
+    },
+    "Report": {
+      "alreadyWrite": "You have already written a daily report. Please submit in update mode."
+    }
+  },
+  "Sort": {
+    "action": "Sort",
+    "clear": "Clear",
+    "restore": "Restore",
+    "date": {
+      "title": "Date",
+      "descending": "Descending",
+      "ascending": "Ascending"
+    },
+    "state": {
+      "完了": "Done",
+      "対応中": "Doing",
+      "未対応": "Yet"
+    }
+  },
+  "Section": {
+    "time": "Required time",
+    "memo": "Memo (Detailed field)"
+  },
+  "Date": {
+    "label": "Date"
+  },
+  "Report": {
+    "con": {
+      "name": "Contents",
+      "support": "Support for students",
+      "event": "Event",
+      "zemi": "Seminar",
+      "study": "Study group",
+      "room": "Room party",
+      "mtg": "Section MTG",
+      "other": "Other"
+    },
+    "mtg": "Regular MTG / Other MTG"
+  },
+  "質問フォーム": "Question Form",
+  "質問一覧": "Question List",
+  "ログイン・新規登録": "Login / New Registration",
+  "管理者ページ": "Administrator Page",
+  "ユーザー管理": "User Management",
+  "日報管理": "Daily Report Management",
+  "コードテスト管理": "Coding Test Management",
+  "お知らせの管理": "News Management",
+  "日報": "Daily Report",
+  "プロフィール": "Profile",
+  "TOP": "TOP",
+  "コードテスト": "CodeTest",
+  "OverView": "OverView"
+}
